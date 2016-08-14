@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_8EJX0Ae94opuTi8t-f1zufCNUrMKxv0&callback=initMap" async defer></script>
+    <div id="header"></div>
+</head>
+
+<body>
+    <h1>Welcome to BikeRoute <i class="fa fa-bicycle" aria-hidden="true"></i></h1>
+
+    <div class="column">
+        <form action="demo_form.asp">
+            <input id="origin" type="text" name="origin" placeholder="Where are you starting?">
+            <br>
+            <input id="destination" type="text" name="destination" placeholder="Where are you going?">
+            <br>
+            <input id="submit" type="button" value="Route It!">
+        </form>
+
+        <p id="distanceText"> &nbsp</p>
+        <p id="timeText">&nbsp</p>
+        <p id="caloriesText">&nbsp</p>
+    </div>
+
+
+    <div class="column" id="map" style="height:1px;">
+    </div>
+
+
+
+</body>
+<footer>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+</footer>
+
+</html>
