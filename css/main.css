@@ -13,8 +13,8 @@
       border-radius: 0%;
       clear: both;
   }
-  footer{
-    clear:both;
+  footer {
+      clear: both;
   }
   input[type=text] {
       text-align: center;
@@ -28,12 +28,12 @@
       padding: 0;
       text-align: center;
   }
-  .column{
-    display: inline;
-    float: left;
-    width: 48%;
-    height: 350px !important;
+  .column {
+      display: inline;
+      float: left;
+      width: 48%;
+      height: 350px !important;
   }
-  form{
-  padding-top: 15%
+  form {
+      padding-top: 15%
   }
