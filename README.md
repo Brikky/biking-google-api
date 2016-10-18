@@ -40,4 +40,4 @@ ___
 
 ### Screenshots
 ___
-![BikeRoute](http://imgur.com/Ekv5OTd)
+![BikeRoute](http://i.imgur.com/Ekv5OTd.png)
